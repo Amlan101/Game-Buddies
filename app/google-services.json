@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701039347680",
+    "project_id": "game-buddies-6cf0f",
+    "storage_bucket": "game-buddies-6cf0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701039347680:android:b29b990b3b6fe98f35cd85",
+        "android_client_info": {
+          "package_name": "com.example.gamebuddies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1VMYzzdiEADY2n4ODTX14MyMudD8-eK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
