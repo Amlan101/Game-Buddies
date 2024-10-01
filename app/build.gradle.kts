@@ -56,13 +56,30 @@ dependencies {
     // Firebase Real-time Database
     implementation(libs.firebase.database)
 
+    // Firebase Cloud Functions
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.functions.ktx)
+
     // Retrofit
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
 
+    // Kotlin serialization
+    implementation(libs.retrofit2.kotlinx.serialization.converter)
+
     // Dependency Injection
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
+
+    // Jetpack
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+
+
+    // Agora SDK
+    implementation (libs.full.sdk)
 }
 
 // Allow references to generated code
